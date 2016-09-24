@@ -1,8 +1,22 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
+  helper_method :resource_name, :resource, :devise_mapping
+
   # GET /users
   # GET /users.json
+  def resource_name
+    :user
+  end
+ 
+  def resource
+    @resource ||= User.new
+  end
+ 
+  def devise_mapping
+    @devise_mapping ||= Devise.mappings[:user]
+  end
+  
   def index
     @users = User.all
   end
