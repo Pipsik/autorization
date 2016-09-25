@@ -40,10 +40,14 @@ gem 'omniauth-vkontakte'
 gem 'omniauth-twitter'
 gem "therubyracer"
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "selenium-webdriver"
+gem "capybara"
+gem 'bower-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem "rspec-rails", "~> 2.0"
 end
 
 group :development do
