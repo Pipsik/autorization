@@ -1,0 +1,12 @@
+%table.table.table-striped
+  %thead
+    %tr
+      %th name
+      %th description
+      %th tags
+  %tbody
+    - @sites.each do |site|
+      %tr
+        %td= site.name
+        %td= site.description
+        %td= site.tags
