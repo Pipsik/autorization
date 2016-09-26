@@ -13,5 +13,18 @@
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap
-//= require turbolinks
+//= require angular/angular
+//= require angular-ui-router
+//= require angular-route/angular-route
+//= require angular-rails-templates
+
+// = require app.module
+// = require app.config
+
+// = require core/core.module
+// = require core/site/site.module
+//= require sites/site.module
+//= require sites/index/index.module
+
+
 //= require_tree .

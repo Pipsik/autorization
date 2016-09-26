@@ -27,7 +27,6 @@ gem 'inherited_resources'
 gem 'activeadmin', '~> 1.0.0.pre4'
 # Use Unicorn as the app server
 # gem 'unicorn'
-
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'jquery-rails'
@@ -43,8 +42,9 @@ gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) support
 gem "selenium-webdriver"
 gem "capybara"
 gem 'bower-rails'
-
+gem 'angular-ui-router-rails'
 group :development, :test do
+gem 'angular-rails-templates'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem "rspec-rails", "~> 2.0"
