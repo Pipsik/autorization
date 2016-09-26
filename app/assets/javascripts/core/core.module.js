@@ -1,3 +1,4 @@
 angular.module('core', [
-    'core.site'
+    'core.site',
+    'core.user'
 ]);

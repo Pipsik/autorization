@@ -32,7 +32,8 @@
                 Information
                 %b.caret
               %ul.dropdown-menu
-                %li= link_to "My profile", user_facebook_omniauth_authorize_path
+                %li
+                  %a{href: '#/profile'} MyProfile
                 %li
                   %a{href: '#/create'} Create site
                 %li= link_to "Logout", destroy_user_session_path, :method => :delete
@@ -52,4 +53,3 @@
                 %a{href: "#"} Русский
       .navbar-collapse
     %ui-view
-

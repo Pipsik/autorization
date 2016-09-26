@@ -16,7 +16,7 @@ development:
   database: db/Users
   pool: 5
   username: root
-  password: 5316217813492artem
+  password: 1995
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -25,9 +25,9 @@ development:
 test:
   <<: *default
   database: db/test.users
-  password: 5316217813492artem
+  password: 1995
 
 production:
   <<: *default
   database: db/production.users
-  password: 5316217813492artem
+  password: 1995

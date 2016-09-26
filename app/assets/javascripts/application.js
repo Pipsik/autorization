@@ -26,5 +26,8 @@
 // = require sites/site.module
 // = require sites/index/index.module
 // = require sites/create/create.module
+// = require users/profile/profile.module
+// = require users/user.module
+// = require core/user/user.module
 
 //= require_tree .

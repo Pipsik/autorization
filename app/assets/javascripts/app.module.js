@@ -1,6 +1,7 @@
 angular.
   module('Generator', [
     'site',
+    'user',
     'core',
 
     'ngRoute',
