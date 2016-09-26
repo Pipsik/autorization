@@ -9,7 +9,7 @@ class SitesController < InheritedResources::Base
 	end
 
   def show
-    render json: Site.find(params[:id])
+
   end
 
 	
