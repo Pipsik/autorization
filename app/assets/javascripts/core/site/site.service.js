@@ -1,32 +1,43 @@
 angular.
-  module('core.site').
-  factory('sites', ['$http',
+module('core.site').
+factory('dataService', ['$http', function ($http) {
+    return {
+url: "http://localhost:3000/", //from web.config
+post: function (addr, data, headers) {
+    if (headers) {
+        return $http({
+            url: this.url + addr,
+            method: "POST",
+            data: data,
+            headers: headers
+        });
+    }
+    return $http.post(this.url + addr, data);
+},
 
-        function($http){
-            var o = {
-                posts: []
-            };
-            o.getAll = function() {
-                return $http.get('/sites.json').success(function(data) {
-                    angular.copy(data);
-                });
-            };
+get: function (addr, data, headers) {
+    if (headers) {
+        return $http({
+            url: this.url + addr,
+            method: "Get",
+            params: {
+                data: data
+            },
+            headers: headers
+        });
+    }
+    return $http({
+        url: this.url + addr,
+        method: "Get",
+        params: {
+            data: data
+        }
+    });
 
-            o.addSite = function(site) {
-                return $http.post('/sites', site).then(function(result){
+},
 
-                    return result.data;
-                });
-            };
-
-            o.get = function(id) {
-                return $http.get('/posts/' + id).then(function(result){
-                    return result.data;
-                });
-            };
-            o.addComment = function(id, comment) {
-                return $http.post('/posts/' + id + '/comments', comment);
-            };
-
-            return o;
-        }]);
+delete: function (addr, data) {
+    return $http.delete(this.url + addr, data);
+}
+}
+}]);
