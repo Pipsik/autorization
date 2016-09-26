@@ -8,6 +8,10 @@ class SitesController < InheritedResources::Base
     end
 	end
 
+  def show
+    render json: Site.find(params[:id])
+  end
+
 	
 
   private

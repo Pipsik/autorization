@@ -7,6 +7,10 @@ angular
                 .state('sites', {
                     url: '/sites',
                     template: '<sites-view></sites-view>'
+                })
+                .state('create', {
+                    url: '/create',
+                    template: '<create-view></create-view>'
                 });
 
             $urlRouterProvider.otherwise('sites');

@@ -1,3 +1,4 @@
 angular.module('site',[
-    'site.index'
+    'site.index',
+    'site.create'
 ]);

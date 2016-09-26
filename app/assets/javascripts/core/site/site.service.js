@@ -12,8 +12,8 @@ angular.
                 });
             };
 
-            o.addPost = function(post) {
-                return $http.post('/posts', post).then(function(result){
+            o.addSite = function(site) {
+                return $http.post('/sites', site).then(function(result){
 
                     return result.data;
                 });
