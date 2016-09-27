@@ -57,7 +57,7 @@
             <state relative-caret-position="330">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
-                <marker date="1474987448681" expanded="true" signature="139:464" ph="{...}" />
+                <marker date="1474988400677" expanded="true" signature="139:464" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -73,20 +73,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.component.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="create.component.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sites/create/create.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding>
-                <marker date="1474987448681" expanded="true" signature="221:238" ph="{...}" />
-                <marker date="1474987448681" expanded="true" signature="237:238" ph="{&quot;name&quot;: $scope.name...}" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.template.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="create.template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sites/create/create.template.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -543,7 +540,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7273000" />
+    <option name="totallyTimeSpent" value="7355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -597,7 +594,7 @@
         <state relative-caret-position="210">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1474987448681" expanded="true" signature="139:464" ph="{...}" />
+            <marker date="1474988400677" expanded="true" signature="139:464" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -654,10 +651,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <marker date="1474987448681" expanded="true" signature="221:238" ph="{...}" />
-            <marker date="1474987448681" expanded="true" signature="237:238" ph="{&quot;name&quot;: $scope.name...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -717,7 +711,7 @@
         <state relative-caret-position="210">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1474987448681" expanded="true" signature="139:464" ph="{...}" />
+            <marker date="1474988400677" expanded="true" signature="139:464" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -736,10 +730,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
-          <folding>
-            <marker date="1474987448681" expanded="true" signature="221:238" ph="{...}" />
-            <marker date="1474987448681" expanded="true" signature="237:238" ph="{&quot;name&quot;: $scope.name...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -773,7 +764,7 @@
         <state relative-caret-position="210">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1474987448681" expanded="true" signature="139:464" ph="{...}" />
+            <marker date="1474988400677" expanded="true" signature="139:464" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -799,10 +790,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding>
-            <marker date="1474987448681" expanded="true" signature="221:238" ph="{...}" />
-            <marker date="1474987448681" expanded="true" signature="237:238" ph="{&quot;name&quot;: $scope.name...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +824,7 @@
         <state relative-caret-position="210">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1474987448681" expanded="true" signature="139:464" ph="{...}" />
+            <marker date="1474988400677" expanded="true" signature="139:464" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -855,10 +843,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
-          <folding>
-            <marker date="1474987448681" expanded="true" signature="221:238" ph="{...}" />
-            <marker date="1474987448681" expanded="true" signature="237:238" ph="{&quot;name&quot;: $scope.name...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -967,7 +952,7 @@
         <state relative-caret-position="330">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <marker date="1474987448681" expanded="true" signature="139:464" ph="{...}" />
+            <marker date="1474988400677" expanded="true" signature="139:464" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -983,17 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sites/create/create.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <marker date="1474987448681" expanded="true" signature="221:238" ph="{...}" />
-            <marker date="1474987448681" expanded="true" signature="237:238" ph="{&quot;name&quot;: $scope.name...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1020,6 +994,14 @@
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sites/create/create.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
