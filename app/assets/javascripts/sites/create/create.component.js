@@ -17,4 +17,4 @@ component('createView', {
       dataService.post('/return', o).then(function(ob) { alert(ob);});
     }
   }]
-});1
+});
